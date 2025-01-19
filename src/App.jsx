@@ -1,9 +1,12 @@
-import Header from "./components/common/Header"
+import CodeSection from './components/CodingSection/CodeSection';
+import './index.css';
 
-const App = () => {
+function App() {
   return (
-    <Header/>
-  )
+    <div className="App">
+      <CodeSection />
+    </div>
+  );
 }
 
-export default App
+export default App;
