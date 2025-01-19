@@ -31,7 +31,7 @@ const CodeSection = () => {
       <div className="h-64 bg-[#1e1e1e] p-4 font-mono text-sm overflow-auto">
         <textarea
           value={code}
-          onChange={(e) => setCode(e.target.value)} // Fixed this to ensure smooth state updates
+          onChange={(e) => setCode(e.target.value)} 
           className="w-full h-full bg-transparent text-gray-300 resize-none focus:outline-none"
           spellCheck="false"
           placeholder={`Write your ${language} code here...`}
